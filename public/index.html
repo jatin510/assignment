@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IOT DEVICE</title>
+  </head>
+  <body>
+    check the status of IOT device <br />
+    <div class="check">
+      <button id="check-status">check</button>
+    </div>
+
+    change the status of IOT device
+    <div class="set">
+      <select id="set-select">
+        <option value="on">on</option>
+        <option value="off">off</option>
+      </select>
+
+      <button id="set-status">Set</button>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</html>
